@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "./tsconfig.base.json",
+    "./tsconfig.base2.json",
+  ],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext",
+    "customConditions": [
+      "production",
+      "development"
+    ]
+  },
+}
